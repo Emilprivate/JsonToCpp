@@ -11,7 +11,7 @@ The application allows you to choose the JSON folder containing the source JSON 
 The script converts the JSON data into a C++ string literal. It reads the JSON files from the selected JSON folder, converts the JSON data to a formatted string, and escapes special characters to be compatible with C++ string literals.
 
 ### Generate C++ Header Files
-By clicking the "Generate .h File" button, the script generates C++ header files based on the JSON data. It creates a header file for each JSON file in the JSON folder, using the filename as the basis for the header file name. The generated header files contain the C++ data structures (e.g., struct, class, union, namespace) and the converted JSON data as a C++ string literal.
+By clicking the "Generate .h File" button, the script generates C++ header files based on the JSON data. It creates a header file for each JSON file in the JSON folder, using the filename as the basis for the header file name. The generated header files contain the C++ data structures (e.g., struct, class, union, namespace) and the converted JSON data as a C++ string literal. It also replicates the directory structure of the JSON folder to create an exact match but with .h files instead.
 
 ### Combine Header Files
 The application provides an option to combine the generated header files into a single C++ header file. By selecting the "Combine Files" checkbox, the script combines all the generated header files into a single file named "combined.h". This can be useful when you want to include all the generated data structures in a single include file.
