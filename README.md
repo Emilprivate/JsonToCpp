@@ -35,5 +35,3 @@ Customize the settings, such as combining files and selecting the file type (str
 Click the "Generate .h File" button to start the generation process.
 Check the output terminal for progress updates and any error or success messages.
 Please note that it's important to have a good understanding of JSON and the desired C++ data structures before using this tool. Make sure the JSON data aligns with the expected C++ data structure format.
-
-The C++ Header File Generator simplifies the process of converting JSON data into C++ header files, reducing manual effort and saving time.
