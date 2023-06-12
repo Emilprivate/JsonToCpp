@@ -1,8 +1,7 @@
 # JsonToCpp
 Small Python script to convert all Json files in a directory to Cpp literal string format with a user interface. 
 
-C++ Header File Generator
-The C++ Header File Generator is a Python script that helps automate the generation of C++ header files from JSON data. It provides a user-friendly GUI interface built with the Tkinter library.
+It provides a user-friendly GUI interface built with the Tkinter library.
 
 Features
 1. Select JSON Folder and Output Folder
