@@ -3,8 +3,8 @@ Small Python script to convert all Json files in a directory to Cpp literal stri
 
 It provides a user-friendly GUI interface built with the Tkinter library.
 
-##Features
-###Select JSON Folder and Output Folder
+## Features
+### Select JSON Folder and Output Folder
 The application allows you to choose the JSON folder containing the source JSON files and the output folder where the generated C++ header files will be saved.
 
 ###Conversion of JSON Data to C++ String Literal
