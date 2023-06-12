@@ -22,6 +22,9 @@ Another option provided is to generate combined files by directory. When selecti
 ### Output Terminal
 The application includes an output terminal where you can see the progress and status of the file generation process. Error messages, if any, will be displayed in red, and success messages will be displayed in green.
 
+## Known Issues
+- If JSON values include a paranthesis at the end followed by a quotation marks, such as ```"Example Value: Test (This is a test)"```, it'll escape the quotation mark in C++ and essentially cause a syntax error.
+
 ## Getting Started
 To use the C++ Header File Generator:
 
